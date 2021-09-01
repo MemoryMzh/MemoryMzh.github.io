@@ -102,24 +102,18 @@
   </div>
 
    
-   
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
+  
+    
+<!-- minivaline评论 -->
+<div id="mvcomments-box">
+  <div id="mvcomments"></div>
 </div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/minivaline@6"></script>
 <script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "",
-    app_key: "",
-    path: window.location.pathname,
-    avatar: "monsterid",
-    placeholder: "给我的文章加点评论吧~",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
+  new MiniValine(Object.assign({"enable":true,"serverURL":"https://minivaline.your-domain.com","emoticonUrl":["https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"]}, {
+    el: '#mvcomments',
+  }));
+  const infoEle = document.querySelector('#mvcomments .info');
   if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
     infoEle.childNodes.forEach(function (item) {
       item.parentNode.removeChild(item);
@@ -127,31 +121,36 @@
   }
 </script>
 <style>
-  #vcomments-box {
+  #mvcomments-box {
     padding: 5px 30px;
   }
-
   @media screen and (max-width: 800px) {
-    #vcomments-box {
+    #mvcomments-box {
       padding: 5px 0px;
     }
   }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
+  :root .darkmode {
+    --ohhho-color-p: #bbb;
+    --ohhho-color-text: #fff;
+    --ohhho-color-card: #252d38;
+    --ohhho-color-block: rgba(68, 68, 68, 0.65);
+    --ohhho-expand-before-background: linear-gradient(
+      180deg,
+      rgba(246, 246, 246, 0),
+      rgba(0, 0, 0, 0.9)
+    );
+    --ohhho-expand-after-background: rgba(0, 0, 0, 0.9);
   }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
+  .darkmode .ohhho pre {
+    background: #888;
+    border: 1px solid var(--ohhho-color-block);
   }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
+  .darkmode .ohhho .vlist .vcard .vcomment-body .vhead {
+    filter: brightness(85%);
   }
 </style>
 
- 
-    
+  
 </article>
 
 </section>
@@ -218,15 +217,15 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/Categories">分类</a>
+      <a class="nav-item-link" href="/categories">分类</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/Tags">标签</a>
+      <a class="nav-item-link" href="/tags">标签</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/Photos">照片</a>
+      <a class="nav-item-link" href="/photos">照片</a>
     </li>
     
   </ul>
