@@ -14,4 +14,19 @@
         <tag>国内</tag>
       </tags>
   </entry>
+  <entry>
+    <title>小李同学毕业季Vlog1</title>
+    <url>/2021/09/03/L%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="矫揉造作的姿势1"><a href="#矫揉造作的姿势1" class="headerlink" title="矫揉造作的姿势1"></a><center>矫揉造作的姿势1</center></h2><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://cdn.jsdelivr.net/gh/MemoryMzh/WecSource/Videos1/v1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h2 id="矫揉造作的姿势2"><a href="#矫揉造作的姿势2" class="headerlink" title="矫揉造作的姿势2"></a><center>矫揉造作的姿势2</center></h2><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"video":{"url":"https://cdn.jsdelivr.net/gh/MemoryMzh/WecSource/Videos1/v2.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+]]></content>
+      <categories>
+        <category>毕业</category>
+      </categories>
+      <tags>
+        <tag>国内</tag>
+        <tag>毕业</tag>
+      </tags>
+  </entry>
 </search>
