@@ -68,4 +68,15 @@
         <tag>节日</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Music</title>
+    <url>/2000/01/01/Music/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
+    <div id="aplayer-ZgHatdcG" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="6971112043" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
+
+]]></content>
+      <tags>
+        <tag>music</tag>
+      </tags>
+  </entry>
 </search>
